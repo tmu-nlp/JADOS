@@ -72,8 +72,9 @@ Each entry consists of the following objects.
 | ---- | ---- |---- |
 | 0.0.0 | May 2, 2024 | - |
 | 0.0.1 | June 17, 2024 | <ul> <li>Corrected `source_text` of "0.999..." article.</li> <li>Sorted `summarization_ids`.</li></ul>|
+| 0.1.0 | June 18, 2024 | <ul> <li>Added the second paragraph of Wikipedia article to `source_text` under 150 characters and then simplified it. </li></ul> |
 
 ## Citation
 If you use of the dataset, please cite:
 
-Yoshinari Nagai, Teruaki Oka, Mamoru Komachi. A Document-Level Text Simplification Dataset for Japanese. The 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation (LREC-COLING 2024), May 2024 (to appear).
+Yoshinari Nagai, Teruaki Oka, Mamoru Komachi. A Document-Level Text Simplification Dataset for Japanese. The 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation (LREC-COLING 2024), May 2024.
