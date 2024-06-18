@@ -61,6 +61,18 @@ Each entry consists of the following objects.
 **Note: Due to revisions made upon publication, the statistics in this dataset may differ from those presented in the paper.**
 
 
+## Release Notes
+### Mainichi corpus
+| Version | Date | Updates |
+| ---- | ---- |---- |
+| 0.0.0 | May 2, 2024 | - |
+
+### Wikipedia corpus
+| Version | Date | Updates |
+| ---- | ---- |---- |
+| 0.0.0 | May 2, 2024 | - |
+| 0.0.1 | June 17, 2024 | <ul> <li>Corrected `source_text` of "0.999..." article.</li> <li>Sorted `summarization_ids`.</li></ul>|
+
 ## Citation
 If you use of the dataset, please cite:
 
