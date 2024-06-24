@@ -7,7 +7,7 @@ Each domain dataset is provided in JSON format.
 - Wikipedia corpus in encyclopedia doamin: `data/wikipedia_corpus/wikipedia_vX.X.X.json`
 
 ### Mainichi corpus
-**Note: To obtain the Mainichi corpus source and target texts, please purchase the corpora (毎日新聞記事データ集 and 毎日小学生新聞記事データ集) from 2013 to 2020 [[link]](https://www.nichigai.co.jp/dcs/index5.html).**
+**Note: To obtain the Mainichi corpus source and target texts, please purchase the 毎日新聞記事データ集 and 毎日小学生新聞記事データ集 corpora from 2013 to 2020 [[link]](https://www.nichigai.co.jp/dcs/index5.html).**
 
 Each entry consists of the following objects.
 
