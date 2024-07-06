@@ -7,6 +7,10 @@ Each domain dataset is provided in JSON format.
 - Wikipedia corpus in encyclopedia doamin: `data/wikipedia_corpus/wikipedia_vX.X.X.json`
 
 ### Mainichi corpus
+**Note: To obtain the Mainichi corpus source and target texts, please purchase the 毎日新聞記事データ集 and 毎日小学生新聞記事データ集 corpora from 2013 to 2020 [[link]](https://www.nichigai.co.jp/dcs/index5.html).**
+
+Each entry consists of the following objects.
+
     ┌──── year
     ├──── source
     │         ├──── id
@@ -72,8 +76,9 @@ Each entry consists of the following objects.
 | ---- | ---- |---- |
 | 0.0.0 | May 2, 2024 | - |
 | 0.0.1 | June 17, 2024 | <ul> <li>Corrected `source_text` of "0.999..." article.</li> <li>Sorted `summarization_ids`.</li></ul>|
+| 0.1.0 | June 18, 2024 | <ul> <li>Added the second paragraph of Wikipedia article to `source_text` under 150 characters and then simplified it. </li></ul> |
 
 ## Citation
 If you use of the dataset, please cite:
 
-Yoshinari Nagai, Teruaki Oka, Mamoru Komachi. A Document-Level Text Simplification Dataset for Japanese. The 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation (LREC-COLING 2024), May 2024 (to appear).
+Yoshinari Nagai, Teruaki Oka, Mamoru Komachi. A Document-Level Text Simplification Dataset for Japanese. The 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation (LREC-COLING 2024), May 2024.
