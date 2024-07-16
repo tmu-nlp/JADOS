@@ -78,6 +78,7 @@ Each entry consists of the following objects.
 | 0.0.1 | June 17, 2024 | <ul> <li>Corrected the `source_text` of "0.999..." article.</li> <li>Sorted the `summarization_ids`.</li></ul>|
 | 0.1.0 | June 18, 2024 | <ul> <li>Added the second paragraph of Wikipedia article to the `source_text` under 150 characters and then simplified it. </li></ul> |
 | 0.0.2 <br> 0.1.1 | July 6, 2024 | <ul> <li>Corrected the `title`, `source_text` and `target_text` of some articles.</li></ul>|
+| 0.0.3 <br> 0.1.2 | July 16, 2024 | <ul> <li>Corrected the `target_text` and `alignmnet_ids` of some articles.</li></ul>|
 
 ## Citation
 If you use of the dataset, please cite:
