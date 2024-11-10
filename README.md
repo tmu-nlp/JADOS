@@ -39,6 +39,7 @@ Each entry consists of the following objects.
 
     ┌──── title
     ├──── class
+    ├──── category
     ├──── source_text      
     └──── annotations
               ├──── targrt_text 
@@ -53,7 +54,8 @@ Each entry consists of the following objects.
 | Key | Type | Description |
 | ---- | ---- |---- |
 | title | str | Wikipedia article title. |
-| class | str | Category of Wikipedia articles ("featured" or "good"). |
+| class | str | Class of Wikipedia articles ("featured" or "good"). |
+| category | str | (Corpus version ≥ v0.1.3）<br>Categorical classification of Wikipedia articles (in English). <br><br>Types of categorical classification with English-Japanese correspondence:<br><blockquote>general works :総記, philosophy :哲学, history :歴史, social sciences :社会科学, natural sciences :自然科学, technology :技術, industry :産業, arts :芸術, language :言語, literature :文学</blockquote>|
 | source_text | list[str] | List of a Wikipedia article split into sentences. The `title` is stored in the first element. |
 | annotations | list | Data manually annotated and created by two workers. |
 | target_text | list[str] | List of manually created simplified articles split into sentences. |
@@ -79,6 +81,7 @@ Each entry consists of the following objects.
 | 0.1.0 | June 18, 2024 | <ul> <li>Added the second paragraph of Wikipedia article to the `source_text` under 150 characters and then simplified it. </li></ul> |
 | 0.0.2 <br> 0.1.1 | July 6, 2024 | <ul> <li>Corrected the `title`, `source_text` and `target_text` of some articles.</li></ul>|
 | 0.0.3 <br> 0.1.2 | July 16, 2024 | <ul> <li>Corrected the `target_text` and `alignmnet_ids` of some articles.</li></ul>|
+| 0.1.3 | November 10, 2024 | `category` has been included in the key.<br> (The dataset split details for the experiments in the paper were provided in `experiment_dataset_splits/wikipedia_split_info.json`.)　|
 
 ## Citation
 If you use of the dataset, please cite:
