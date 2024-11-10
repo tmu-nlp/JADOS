@@ -81,9 +81,9 @@ Each entry consists of the following objects.
 | 0.1.0 | June 18, 2024 | <ul> <li>Added the second paragraph of Wikipedia article to the `source_text` under 150 characters and then simplified it. </li></ul> |
 | 0.0.2 <br> 0.1.1 | July 6, 2024 | <ul> <li>Corrected the `title`, `source_text` and `target_text` of some articles.</li></ul>|
 | 0.0.3 <br> 0.1.2 | July 16, 2024 | <ul> <li>Corrected the `target_text` and `alignmnet_ids` of some articles.</li></ul>|
-| 0.1.3 | November 10, 2024 | `category` has been included in the key.<br> (The dataset split details for the experiments in the paper were provided in `experiment_dataset_splits/wikipedia_split_info.json`.)　|
+| 0.1.3 | November 10, 2024 | `category` was included in the key.<br> (The dataset split details for the experiments in the paper were provided in `experiment_dataset_splits/wikipedia_split_info.json`.)　|
 
 ## Citation
 If you use of the dataset, please cite:
 
-Yoshinari Nagai, Teruaki Oka, Mamoru Komachi. A Document-Level Text Simplification Dataset for Japanese. The 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation (LREC-COLING 2024), May 2024.
+Yoshinari Nagai, Teruaki Oka, Mamoru Komachi. A Document-Level Text Simplification Dataset for Japanese. The 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation (LREC-COLING 2024), May 2024. [[link]](https://aclanthology.org/2024.lrec-main.41/)
